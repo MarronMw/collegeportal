@@ -30,11 +30,11 @@ defineProps<{
     <Head title="Log in" />
 
     <!-- Fixed full‑screen overlay – ignores any parent layout constraints -->
-    <div class="fixed inset-0 flex items-center justify-center overflow-auto bg-gradient-to-br from-indigo-50 via-white to-sky-50 p-4 sm:p-6 dark:from-gray-950 dark:via-gray-900 dark:to-indigo-950/30">
+    <div class="fixed inset-0 flex items-center justify-center overflow-auto bg-linear-to-br from-indigo-50 via-white to-sky-50 p-4 sm:p-6 dark:from-gray-950 dark:via-gray-900 dark:to-indigo-950/30">
         <!-- Responsive card – never overflows -->
         <div class="flex w-full max-w-5xl flex-col overflow-hidden rounded-2xl bg-white shadow-xl dark:bg-gray-900/90 md:flex-row">
             <!-- Left column: illustration & branding -->
-            <div class="relative flex flex-col items-center justify-center bg-gradient-to-br from-indigo-600 to-sky-500 p-6 text-center md:w-5/12 md:p-8">
+            <div class="relative flex flex-col items-center justify-center bg-linear-to-br from-indigo-600 to-sky-500 p-6 text-center md:w-5/12 md:p-8">
                 <div class="absolute -top-16 -left-16 h-48 w-48 rounded-full bg-white/10 blur-2xl"></div>
                 <div class="absolute -bottom-16 -right-16 h-48 w-48 rounded-full bg-white/10 blur-2xl"></div>
 
@@ -53,19 +53,19 @@ defineProps<{
 
                 <div class="mt-6 space-y-3 text-left text-sm text-white/90">
                     <div class="flex items-center gap-2 opacity-0 animate-fadeInUp" style="animation-delay: 0.1s; animation-fill-mode: forwards;">
-                        <svg class="h-5 w-5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                        <svg class="h-5 w-5 shrink-0" fill="currentColor" viewBox="0 0 20 20">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                         </svg>
                         <span>Real‑time grades & attendance</span>
                     </div>
                     <div class="flex items-center gap-2 opacity-0 animate-fadeInUp" style="animation-delay: 0.3s; animation-fill-mode: forwards;">
-                        <svg class="h-5 w-5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                        <svg class="h-5 w-5 shrink-0" fill="currentColor" viewBox="0 0 20 20">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                         </svg>
                         <span>Easy course registration</span>
                     </div>
                     <div class="flex items-center gap-2 opacity-0 animate-fadeInUp" style="animation-delay: 0.5s; animation-fill-mode: forwards;">
-                        <svg class="h-5 w-5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                        <svg class="h-5 w-5 shrink-0" fill="currentColor" viewBox="0 0 20 20">
                             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
                         </svg>
                         <span>Campus events & clubs</span>
