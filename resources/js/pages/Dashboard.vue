@@ -32,17 +32,17 @@ const stats = [
 ];
 
 const recentActivities = [
-    { id: 1, title: 'Completed assignment: Calculus II', course: 'MATH 202', time: '2 hours ago', type: 'submission', icon: FileText },
-    { id: 2, title: 'Grade posted: Physics Lab Report', course: 'PHYS 101', grade: '92/100', time: 'yesterday', type: 'grade', icon: BarChart3 },
+    { id: 1, title: 'Completed assignment: Calculus II', course: 'BMAT101', time: '2 hours ago', type: 'submission', icon: FileText },
+    { id: 2, title: 'Grade posted: Physics Lab Report', course: 'BICT103', grade: '92/100', time: 'yesterday', type: 'grade', icon: BarChart3 },
     { id: 3, title: 'New announcement: Midterm schedule', course: 'CS 305', time: '2 days ago', type: 'announcement', icon: Megaphone },
     { id: 4, title: 'Registered for Spring 2025 courses', course: 'Registration', time: '3 days ago', type: 'registration', icon: Calendar },
 ];
 
 const upcomingEvents = [
     { id: 1, title: 'Career Fair', date: 'Apr 22, 2025', time: '10:00 AM - 3:00 PM', location: 'Student Union' },
-    { id: 2, title: 'Guest Lecture: AI Ethics', date: 'Apr 25, 2025', time: '2:00 PM - 3:30 PM', location: 'Virtual' },
-    { id: 3, title: 'Final Exam: Data Structures', date: 'May 5, 2025', time: '9:00 AM - 12:00 PM', location: 'Hall 204' },
-    { id: 4, title: 'Hackathon 2025', date: 'May 10-12, 2025', time: 'All day', location: 'Innovation Lab' },
+    { id: 2, title: 'Guest Lecture: AI Ethics', date: 'Apr 25, 2026', time: '2:00 PM - 3:30 PM', location: 'Virtual' },
+    { id: 3, title: 'Final Exam: Data Structures', date: 'May 5, 2026', time: '9:00 AM - 12:00 PM', location: 'Hall 204' },
+    { id: 4, title: 'Hackathon 2026', date: 'May 10-12, 2026', time: 'All day', location: 'Innovation Lab' },
 ];
 </script>
 
@@ -68,7 +68,7 @@ const upcomingEvents = [
                     </div>
                 </div>
                 <!-- Decorative gradient line -->
-                <div class="absolute bottom-0 left-0 h-1 w-0 bg-gradient-to-r from-indigo-500 to-sky-500 transition-all duration-300 group-hover:w-full"></div>
+                <div class="absolute bottom-0 left-0 h-1 w-0 bg-linear-to-r from-indigo-500 to-sky-500 transition-all duration-300 group-hover:w-full"></div>
             </div>
         </div>
 
